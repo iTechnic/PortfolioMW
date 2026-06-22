@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="a" cx="78%" cy="20%" r="70%">
+      <stop stop-color="#9bd8c0" stop-opacity=".2"/>
+      <stop offset=".58" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="18%" cy="16%" r="68%">
+      <stop stop-color="#d5bc86" stop-opacity=".18"/>
+      <stop offset=".62" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#d5bc86"/>
+      <stop offset=".62" stop-color="#9bd8c0"/>
+      <stop offset="1" stop-color="#f4efe5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#050505"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+  <path d="M72 118h1056M72 512h1056" stroke="#f4efe5" stroke-opacity=".13"/>
+  <circle cx="952" cy="306" r="136" fill="none" stroke="#f4efe5" stroke-opacity=".18"/>
+  <circle cx="952" cy="306" r="82" fill="none" stroke="#9bd8c0" stroke-opacity=".2"/>
+  <rect x="770" y="186" width="230" height="156" rx="28" fill="#f4efe5" fill-opacity=".06" stroke="#f4efe5" stroke-opacity=".16"/>
+  <rect x="802" y="224" width="128" height="12" rx="6" fill="url(#line)"/>
+  <rect x="802" y="264" width="160" height="42" rx="14" fill="#f4efe5" fill-opacity=".09"/>
+  <text x="96" y="196" fill="#f4efe5" font-size="38" font-family="Inter, Arial, sans-serif" font-weight="800">Maks Wittenbeck</text>
+  <text x="96" y="318" fill="#f4efe5" font-size="82" font-family="Inter, Arial, sans-serif" font-weight="850">Websites with taste,</text>
+  <text x="96" y="404" fill="#f4efe5" font-size="82" font-family="Inter, Arial, sans-serif" font-weight="850">speed, and purpose.</text>
+  <text x="96" y="472" fill="#bdb5a9" font-size="30" font-family="Inter, Arial, sans-serif">Creative demo websites for local businesses.</text>
+  <rect x="96" y="518" width="380" height="10" rx="5" fill="url(#line)"/>
+</svg>
