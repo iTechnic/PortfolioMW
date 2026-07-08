@@ -204,23 +204,6 @@ svg {
   white-space: nowrap;
 }
 
-.brand-mark {
-  display: grid;
-  width: 38px;
-  height: 38px;
-  place-items: center;
-  border: 1px solid rgba(244, 239, 229, 0.34);
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 38% 28%, rgba(244, 239, 229, 0.32), transparent 46%),
-    linear-gradient(145deg, rgba(155, 216, 192, 0.22), rgba(213, 188, 134, 0.14)),
-    #0d0d0b;
-  color: var(--ink);
-  font-size: 0.76rem;
-  font-weight: 900;
-  letter-spacing: 0;
-}
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -674,7 +657,7 @@ svg {
 
 .project-type {
   margin: 0;
-  color: var(--champagne);
+  color: var(--accent, var(--champagne));
   font-size: 0.78rem;
   font-weight: 880;
   text-transform: uppercase;
@@ -837,19 +820,37 @@ svg {
   align-items: center;
 }
 
-.about-mark {
-  display: grid;
-  min-height: 440px;
-  place-items: center;
-  border: 1px solid var(--line);
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 44% 36%, rgba(244, 239, 229, 0.18), transparent 24%),
-    radial-gradient(circle at 62% 66%, rgba(155, 216, 192, 0.16), transparent 32%);
-  color: var(--ink);
-  font-size: clamp(3rem, 8vw, 8rem);
-  font-weight: 900;
-  box-shadow: var(--shadow);
+.about-collage {
+  position: relative;
+  min-height: 560px;
+}
+
+.about-collage img {
+  position: absolute;
+  width: 74%;
+  height: auto;
+  border: 1px solid rgba(244, 239, 229, 0.18);
+  border-radius: 16px;
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.45);
+}
+
+.about-collage img:nth-child(1) {
+  top: 2%;
+  left: 0;
+  transform: rotate(-3.5deg);
+}
+
+.about-collage img:nth-child(2) {
+  top: 30%;
+  right: 0;
+  transform: rotate(2.2deg);
+  z-index: 1;
+}
+
+.about-collage img:nth-child(3) {
+  top: 60%;
+  left: 4%;
+  transform: rotate(-1.6deg);
 }
 
 .about-copy p {
@@ -1029,7 +1030,7 @@ textarea:focus {
 
 .eyebrow {
   display: block;
-  color: var(--mint);
+  color: var(--accent, var(--mint));
   font-size: 0.78rem;
   font-weight: 860;
   text-transform: uppercase;
@@ -1201,6 +1202,24 @@ textarea:focus {
   font-size: 0.88rem;
 }
 
+.site-footer--slim {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem 1.5rem;
+  padding: 1.8rem 0 2.4rem;
+}
+
+.site-footer--slim .footer-links {
+  justify-content: flex-start;
+}
+
+.site-footer--slim .copyright {
+  margin: 0;
+  color: var(--soft);
+}
+
 :focus-visible {
   outline: 3px solid rgba(213, 188, 134, 0.64);
   outline-offset: 4px;
@@ -1356,8 +1375,8 @@ textarea:focus {
     min-height: 230px;
   }
 
-  .about-mark {
-    min-height: 280px;
+  .about-collage {
+    min-height: 440px;
   }
 
   .contact-panel {
