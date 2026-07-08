@@ -24,8 +24,8 @@
   <rect x="802" y="224" width="128" height="12" rx="6" fill="url(#line)"/>
   <rect x="802" y="264" width="160" height="42" rx="14" fill="#f4efe5" fill-opacity=".09"/>
   <text x="96" y="196" fill="#f4efe5" font-size="38" font-family="Inter, Arial, sans-serif" font-weight="800">Maks Wittenbeck</text>
-  <text x="96" y="318" fill="#f4efe5" font-size="82" font-family="Inter, Arial, sans-serif" font-weight="850">Websites with taste,</text>
-  <text x="96" y="404" fill="#f4efe5" font-size="82" font-family="Inter, Arial, sans-serif" font-weight="850">speed, and purpose.</text>
-  <text x="96" y="472" fill="#bdb5a9" font-size="30" font-family="Inter, Arial, sans-serif">Live demo websites for local businesses.</text>
+  <text x="96" y="318" fill="#f4efe5" font-size="82" font-family="Inter, Arial, sans-serif" font-weight="850">Websites you can see</text>
+  <text x="96" y="404" fill="#f4efe5" font-size="82" font-family="Inter, Arial, sans-serif" font-weight="850">before you commit.</text>
+  <text x="96" y="472" fill="#bdb5a9" font-size="30" font-family="Inter, Arial, sans-serif">Demo-first websites for small businesses.</text>
   <rect x="96" y="518" width="380" height="10" rx="5" fill="url(#line)"/>
 </svg>

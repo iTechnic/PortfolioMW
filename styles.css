@@ -940,11 +940,25 @@ svg {
 }
 
 .contact-mail {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
+  min-height: 32px;
+  align-items: center;
   margin-top: 1.35rem;
   color: var(--champagne);
   font-size: 1rem;
   font-weight: 840;
+  transition: color 180ms ease;
+}
+
+.contact-mail:hover,
+.contact-mail:focus-visible {
+  color: var(--ink);
+}
+
+.contact-mail--wa {
+  margin-top: 0.5rem;
+  color: var(--mint);
 }
 
 .contact-form {
