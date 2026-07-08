@@ -13,7 +13,7 @@
     <meta property="og:description" content="Start a website demo for your business. Reply within one working day." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://portfolio-mw-h6pl.vercel.app/contact/" />
-    <meta property="og:image" content="https://portfolio-mw-h6pl.vercel.app/assets/social-preview.svg" />
+    <meta property="og:image" content="https://portfolio-mw-h6pl.vercel.app/assets/social-preview.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#060606" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
@@ -47,9 +47,9 @@
 
     <main id="main">
       <section class="section page-hero">
-        <span class="eyebrow reveal">Contact</span>
-        <h1 class="reveal">Have a business in mind?</h1>
-        <p class="reveal">
+        <span class="eyebrow">Contact</span>
+        <h1>Have a business in mind?</h1>
+        <p>
           Send a few lines about the business and what the site should achieve. I reply
           within one working day, usually with questions and a plan for the first demo.
         </p>
@@ -69,7 +69,11 @@
             </a>
           </div>
 
-          <form class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form" action="https://formsubmit.co/mwittenbeck04@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Website demo request" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://portfolio-mw-h6pl.vercel.app/contact/thanks/" />
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
             <div class="form-row">
               <label for="name">Name</label>
               <input id="name" name="name" type="text" autocomplete="name" required />
@@ -96,8 +100,8 @@
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="5" placeholder="What does the business do?"></textarea>
             </div>
-            <p class="form-note">Your enquiry opens as an email draft so you can review it before sending.</p>
-            <button class="button button--primary form-submit" type="submit">Submit enquiry</button>
+            <p class="form-note">Your details are used only to reply to this enquiry. Nothing is stored, shared, or added to any list.</p>
+            <button class="button button--primary form-submit" type="submit">Send enquiry</button>
           </form>
         </div>
       </section>

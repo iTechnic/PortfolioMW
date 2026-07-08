@@ -14,28 +14,12 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 
 const contactForm = document.querySelector("#contact-form");
 
-contactForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const data = new FormData(contactForm);
-  const name = String(data.get("name") || "").trim();
-  const business = String(data.get("business") || "").trim();
-  const email = String(data.get("email") || "").trim();
-  const type = String(data.get("website-type") || "").trim();
-  const message = String(data.get("message") || "").trim();
-
-  const subject = `Website demo request${business ? ` - ${business}` : ""}`;
-  const body = [
-    `Name: ${name}`,
-    business ? `Business: ${business}` : "",
-    `Email: ${email}`,
-    `Type of website: ${type}`,
-    "",
-    message,
-  ]
-    .filter(Boolean)
-    .join("\n");
-
-  window.location.href = `mailto:mwittenbeck04@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+contactForm?.addEventListener("submit", () => {
+  const button = contactForm.querySelector(".form-submit");
+  if (button) {
+    button.disabled = true;
+    button.textContent = "Sending...";
+  }
 });
 
 menuToggle?.addEventListener("click", () => {
