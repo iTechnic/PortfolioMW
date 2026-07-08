@@ -11,5 +11,8 @@
   <rect x="76" y="272" width="260" height="14" rx="7" fill="#ffffff" opacity=".17"/>
   <rect x="76" y="302" width="205" height="14" rx="7" fill="#ffffff" opacity=".13"/>
   <rect x="408" y="132" width="118" height="118" rx="30" fill="#8fd1a1" opacity=".18" stroke="#8fd1a1" stroke-opacity=".48"/>
-  <path d="M468 214c34-29 48-62 38-96-35 9-60 29-75 60m38 36c-24-4-43-17-56-39" fill="none" stroke="#8fd1a1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M425 172a62 62 0 0 1 84 0l-42 76Z" fill="none" stroke="#d8bd8d" stroke-width="9" stroke-linejoin="round"/>
+  <circle cx="452" cy="188" r="8" fill="#8fd1a1"/>
+  <circle cx="482" cy="192" r="8" fill="#8fd1a1"/>
+  <circle cx="466" cy="214" r="8" fill="#8fd1a1"/>
 </svg>

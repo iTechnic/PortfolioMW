@@ -3,27 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maks Wittenbeck | Creative Website Portfolio</title>
+    <title>Maks Wittenbeck | Web Designer for Local Businesses</title>
     <meta
       name="description"
-      content="Maks Wittenbeck creates modern demo websites, landing pages, and mobile-first web design for local businesses."
+      content="Maks Wittenbeck designs and builds websites for local businesses. See a live demo of your site before you commit to anything. Five live projects to browse right now."
     />
-    <meta property="og:title" content="Maks Wittenbeck | Creative Website Portfolio" />
+    <link rel="canonical" href="https://portfolio-mw-h6pl.vercel.app/" />
+    <meta property="og:title" content="Maks Wittenbeck | Web Designer for Local Businesses" />
     <meta
       property="og:description"
-      content="Modern demo websites, landing pages, and mobile-first web design for local businesses."
+      content="See a live demo of your website before you commit to anything. Five live projects to browse right now."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/social-preview.svg" />
+    <meta property="og:url" content="https://portfolio-mw-h6pl.vercel.app/" />
+    <meta property="og:image" content="https://portfolio-mw-h6pl.vercel.app/assets/social-preview.svg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Maks Wittenbeck | Creative Website Portfolio" />
+    <meta name="twitter:title" content="Maks Wittenbeck | Web Designer for Local Businesses" />
     <meta
       name="twitter:description"
-      content="Tasteful, modern websites for local businesses that want to look sharper online."
+      content="See a live demo of your website before you commit to anything. Five live projects to browse right now."
     />
     <meta name="theme-color" content="#060606" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Maks Wittenbeck",
+        "jobTitle": "Web Designer",
+        "email": "mailto:mwittenbeck04@gmail.com",
+        "url": "https://portfolio-mw-h6pl.vercel.app/",
+        "knowsAbout": ["Web design", "Landing pages", "Mobile-first design", "Local business websites"]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -60,15 +73,22 @@
     <main id="main">
       <section class="hero section" id="top">
         <div class="hero__copy reveal">
+          <p class="hero-badge"><span class="live-dot" aria-hidden="true"></span>Taking on new projects</p>
           <h1>Websites with taste, speed, and a reason to exist.</h1>
           <p>
-            I design sharp demo websites for local businesses that need to look credible,
-            current, and easy to trust from the first scroll.
+            I design and build websites for local businesses. You describe the business,
+            I put a working demo in front of you, and you decide with the real thing on
+            screen instead of a promise.
           </p>
           <div class="hero__actions">
-            <a class="button button--primary" href="#work">View selected work</a>
+            <a class="button button--primary" href="#work">See the live sites</a>
             <a class="button button--ghost" href="#contact">Start a demo</a>
           </div>
+          <ul class="hero-meta" aria-label="Quick facts">
+            <li>5 live sites to browse</li>
+            <li>First demo in days</li>
+            <li>Built mobile first</li>
+          </ul>
         </div>
 
         <div class="hero-art reveal" aria-label="Abstract editorial website preview">
@@ -92,11 +112,12 @@
       <section class="statement section" aria-label="Design point of view">
         <div class="statement__number reveal">01</div>
         <div class="statement__copy reveal">
-          <h2>Most small business websites feel like templates. Yours does not have to.</h2>
+          <h2>Most local business websites look like the template they came from.</h2>
           <p>
-            The point is not to make a loud site. It is to make the business feel sharper:
-            better hierarchy, clearer decisions, stronger mobile pages, and a look that feels
-            made for the place behind it.
+            I design each site around the actual business: the trade, the customers, and
+            the one job the site has to do. A barber, a plumber, and a pizzeria need
+            different pages, different tones, and different first impressions. You get
+            sharper hierarchy, faster pages, and mobile layouts that behave.
           </p>
         </div>
       </section>
@@ -104,97 +125,93 @@
       <section class="section work-section" id="work">
         <div class="section-heading reveal">
           <span class="section-index">02</span>
-          <h2>Selected demo work</h2>
+          <h2>Live work you can open right now</h2>
           <p>
-            Concepts shaped around real-world business needs, from bookings and enquiries to
-            trust, menus, services, and simple mobile actions.
+            Every project below is deployed and working. Tap through and judge each one
+            the way a customer would: on your phone, in a hurry, looking for a reason to trust.
           </p>
         </div>
 
         <div class="project-list">
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--pacepot" href="#" aria-label="View PacePot demo">
-              <img src="assets/work-pacepot.svg" alt="" loading="eager" />
+            <a class="project-media project-media--pacepot" href="https://pacepot.com" target="_blank" rel="noopener" aria-label="Open PacePot, live site">
+              <img src="assets/work-pacepot.svg" alt="Stylised preview of the PacePot savings app interface" />
             </a>
             <div class="project-copy">
-              <p class="project-type">Savings planner</p>
+              <p class="project-type">Product / web app</p>
               <h3>PacePot</h3>
-              <p>A focused app concept for goals, pots, progress, and clear day-to-day planning.</p>
+              <p>A savings goal calculator I designed, built, and shipped. Goals, pots, progress tracking, and a guided tour for first-time users.</p>
               <div class="tag-row">
-                <span>App UI</span><span>Mobile First</span><span>Dashboard</span>
+                <span class="tag-live">Live at pacepot.com</span><span>App UI</span><span>Mobile First</span>
               </div>
+              <a class="project-link" href="https://pacepot.com" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
             </div>
           </article>
 
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--barber" href="#" aria-label="View barber website demo">
-              <img src="assets/work-barber.svg" alt="" loading="eager" />
+            <a class="project-media project-media--plumbing" href="https://example-plumber-wheat.vercel.app" target="_blank" rel="noopener" aria-label="Open Dales Plumbing and Heating demo, live site">
+              <img src="assets/work-plumbing.svg" alt="Stylised preview of a plumbing and heating website layout" />
             </a>
             <div class="project-copy">
-              <p class="project-type">Local barber</p>
-              <h3>Barber Website Demo</h3>
-              <p>A confident local page with service clarity, pricing, booking prompts, and sharp mobile layout.</p>
+              <p class="project-type">Trade / plumbing and heating</p>
+              <h3>Dales Plumbing &amp; Heating</h3>
+              <p>A service-led demo with a photo hero, clear services, trust stats, FAQ, and a sticky call bar for people browsing on their phone with a leak upstairs.</p>
               <div class="tag-row">
-                <span>Landing Page</span><span>Booking</span><span>SEO Basics</span>
+                <span class="tag-live">Live demo</span><span>Services</span><span>Sticky Call Bar</span>
               </div>
+              <a class="project-link" href="https://example-plumber-wheat.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
             </div>
           </article>
 
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--cafe" href="#" aria-label="View coffee shop website demo">
-              <img src="assets/work-cafe.svg" alt="" loading="eager" />
+            <a class="project-media project-media--barber" href="https://example-barber.vercel.app" target="_blank" rel="noopener" aria-label="Open Kings Cut Barbers demo, live site">
+              <img src="assets/work-barber.svg" alt="Stylised preview of a barber website with a price list and scissors motif" />
             </a>
             <div class="project-copy">
-              <p class="project-type">Cafe / coffee shop</p>
-              <h3>Coffee Shop Website Demo</h3>
-              <p>A warm modern concept for menu highlights, opening times, location, and quick contact.</p>
+              <p class="project-type">Barber studio</p>
+              <h3>Kings Cut Barbers</h3>
+              <p>A dark editorial demo with a proper price list, an asymmetric work grid, and WhatsApp booking. Built to feel like the shop, not like a form.</p>
               <div class="tag-row">
-                <span>Menu</span><span>Local SEO</span><span>Mobile Flow</span>
+                <span class="tag-live">Live demo</span><span>Price List</span><span>WhatsApp Booking</span>
               </div>
+              <a class="project-link" href="https://example-barber.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
             </div>
           </article>
 
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--builder" href="#" aria-label="View builder website demo">
-              <img src="assets/work-builder.svg" alt="" loading="eager" />
+            <a class="project-media project-media--cleaning" href="https://example-cleaner.vercel.app" target="_blank" rel="noopener" aria-label="Open Brightside Cleaning demo, live site">
+              <img src="assets/work-cleaning.svg" alt="Stylised preview of a home cleaning website layout with a house outline" />
             </a>
             <div class="project-copy">
-              <p class="project-type">Tradesman / builder</p>
-              <h3>Builder Website Demo</h3>
-              <p>A steady service-led site for areas covered, proof, enquiries, and customer confidence.</p>
+              <p class="project-type">Home cleaning</p>
+              <h3>Brightside Cleaning</h3>
+              <p>A calm, trust-first demo for a cleaning business: what gets cleaned, who turns up, what it costs to ask, and an enquiry flow with no friction.</p>
               <div class="tag-row">
-                <span>Services</span><span>Contact Forms</span><span>Trust</span>
+                <span class="tag-live">Live demo</span><span>Trust</span><span>Enquiries</span>
               </div>
+              <a class="project-link" href="https://example-cleaner.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
             </div>
           </article>
 
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--gym" href="#" aria-label="View personal trainer website demo">
-              <img src="assets/work-gym.svg" alt="" loading="eager" />
+            <a class="project-media project-media--takeaway" href="https://example-takeaway.vercel.app" target="_blank" rel="noopener" aria-label="Open Santoro's Wood Fired Pizza demo, live site">
+              <img src="assets/work-takeaway.svg" alt="Stylised preview of a pizzeria website layout with a pizza slice motif" />
             </a>
             <div class="project-copy">
-              <p class="project-type">Gym / trainer</p>
-              <h3>Personal Trainer Website Demo</h3>
-              <p>A direct fitness page for sessions, plans, enquiries, and mobile-first action.</p>
+              <p class="project-type">Takeaway / pizzeria</p>
+              <h3>Santoro's Wood Fired Pizza</h3>
+              <p>An appetite-first demo: dish photography up top, a structured menu with prices, and an order banner. The food sells, the site stays out of the way.</p>
               <div class="tag-row">
-                <span>Lead Gen</span><span>Booking</span><span>Performance</span>
+                <span class="tag-live">Live demo</span><span>Menu</span><span>Ordering</span>
               </div>
+              <a class="project-link" href="https://example-takeaway.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
             </div>
           </article>
+        </div>
 
-          <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--restaurant" href="#" aria-label="View restaurant website demo">
-              <img src="assets/work-restaurant.svg" alt="" loading="eager" />
-            </a>
-            <div class="project-copy">
-              <p class="project-type">Restaurant</p>
-              <h3>Restaurant Website Demo</h3>
-              <p>A stylish restaurant concept for menus, bookings, location details, and gallery moments.</p>
-              <div class="tag-row">
-                <span>Bookings</span><span>Menu</span><span>Mobile First</span>
-              </div>
-            </div>
-          </article>
+        <div class="work-cta reveal">
+          <p>Your business could be the next site on this list.</p>
+          <a class="button button--primary" href="#contact">Get a demo of yours</a>
         </div>
       </section>
 
@@ -203,8 +220,8 @@
           <span class="section-index">03</span>
           <h2>The useful pieces, designed properly.</h2>
           <p>
-            A good local website is practical before it is decorative. It needs to tell people
-            what you do, why it matters, and how to act without making them work for it.
+            A good local website is practical before it is decorative. It tells people what
+            you do, why you are worth trusting, and how to get in touch without making them work for it.
           </p>
         </div>
 
@@ -212,22 +229,22 @@
           <article class="service-item reveal">
             <span>01</span>
             <h3>Business websites</h3>
-            <p>Clear pages for services, location, contact details, and the things customers need before getting in touch.</p>
+            <p>Clear pages for services, location, and contact details. Everything a customer checks before they pick up the phone.</p>
           </article>
           <article class="service-item reveal">
             <span>02</span>
             <h3>Landing pages</h3>
-            <p>Focused pages for one offer, one audience, and one next step.</p>
+            <p>One offer, one audience, one next step. Focused pages for a specific service or promotion.</p>
           </article>
           <article class="service-item reveal">
             <span>03</span>
             <h3>Mobile-first design</h3>
-            <p>Layouts that are shaped for small screens first, then expanded cleanly for desktop.</p>
+            <p>Most of your customers arrive on a phone. Every layout starts there, then expands cleanly to desktop.</p>
           </article>
           <article class="service-item reveal">
             <span>04</span>
             <h3>Redesign concepts</h3>
-            <p>A sharper visual direction for businesses that already have a site but know it can work harder.</p>
+            <p>Already have a site that underperforms? I build a sharper version alongside it so you can compare side by side.</p>
           </article>
         </div>
       </section>
@@ -241,23 +258,23 @@
         <div class="process-list">
           <article class="process-step reveal">
             <span>01</span>
-            <h3>I build a first demo</h3>
-            <p>You share the business type, the goal, and any must-have details. I turn that into a first visual direction.</p>
+            <h3>You tell me about the business</h3>
+            <p>A few lines is enough: what you do, who your customers are, and what the site needs to achieve. Five minutes of your time.</p>
           </article>
           <article class="process-step reveal">
             <span>02</span>
-            <h3>You react to something real</h3>
-            <p>Instead of guessing from a long brief, you can see the tone, layout, and content shape quickly.</p>
+            <h3>I build a working demo</h3>
+            <p>Within days you get a link to a real site built around your business. You react to something you can scroll, not a mood board.</p>
           </article>
           <article class="process-step reveal">
             <span>03</span>
-            <h3>We refine the site</h3>
-            <p>The pages, words, images, contact flow, and mobile details get tightened until the site feels right.</p>
+            <h3>We refine it together</h3>
+            <p>Pages, words, photos, and contact flow get tightened until the site feels like yours. You pay for the version you have already seen working.</p>
           </article>
           <article class="process-step reveal">
             <span>04</span>
-            <h3>It gets ready for real use</h3>
-            <p>The final version is prepared for visitors, search basics, future edits, and the screens people actually use.</p>
+            <h3>It goes live and stays healthy</h3>
+            <p>The final site launches fast, findable, and ready for real visitors. I can keep looking after it, or hand it over fully. Your choice.</p>
           </article>
         </div>
       </section>
@@ -268,13 +285,13 @@
           <span class="section-index">05</span>
           <h2>About Maks</h2>
           <p>
-            I am a young creative builder interested in websites that feel intentional, load
-            properly, and make sense on mobile. I like turning a small business idea into a
-            polished demo someone can actually picture using.
+            I design and build websites that feel intentional, load fast, and make sense on
+            a phone. Before I ask anyone for money, I put a working site in front of them.
+            That habit is the whole business: you judge finished work, not a pitch.
           </p>
           <p>
-            The goal is simple: help local businesses show up online with more taste, more
-            clarity, and less of the usual template feeling.
+            Local businesses live off first impressions. My job is to make yours look like
+            the obvious choice: more taste, more clarity, and none of the usual template feeling.
           </p>
         </div>
       </section>
@@ -288,19 +305,27 @@
         <div class="faq-list reveal">
           <details>
             <summary>Is this for real businesses or just demos?</summary>
-            <p>Both. A demo is the first version you can react to. If it feels right, it can become the finished website.</p>
+            <p>Both. The demo is the first version you react to. If it feels right, the same site gets refined and becomes your finished website.</p>
+          </details>
+          <details>
+            <summary>How fast can I see something?</summary>
+            <p>Days, not weeks. Once you describe the business, the first working demo usually lands in your inbox within a few days.</p>
+          </details>
+          <details>
+            <summary>What does it cost?</summary>
+            <p>You get a fixed quote before anything is agreed, and you see the working demo first. No hourly billing and no paying for something you have not seen.</p>
           </details>
           <details>
             <summary>Can the style fit my business?</summary>
-            <p>Yes. The visual direction changes around the business, audience, and tone. A barber, cafe, builder, and gym should not all feel the same.</p>
+            <p>Yes. Look at the live work above: the pizzeria, the barber, and the plumber share nothing but quality. The visual direction is built around your trade and your customers.</p>
           </details>
           <details>
             <summary>Will it work on mobile?</summary>
-            <p>Mobile is treated as a core part of the design, not something fixed at the end.</p>
+            <p>Every site here starts as a mobile design. Open any of the live projects on your phone and check.</p>
           </details>
           <details>
             <summary>Do I need all the content ready?</summary>
-            <p>No. A simple explanation of the business, offer, and goal is enough to start a useful first demo.</p>
+            <p>No. A short description of the business and the goal is enough to start. Photos, wording, and details get filled in as we refine.</p>
           </details>
         </div>
       </section>
@@ -311,15 +336,15 @@
             <span class="section-index">07</span>
             <h2>Have a business in mind?</h2>
             <p>
-              Send the type of site you need, what the business does, and the kind of first
-              impression it should make. I will shape a demo around that.
+              Send a few lines about the business and what the site should achieve.
+              I reply within one working day, usually with questions and a plan for the first demo.
             </p>
-            <a class="contact-mail" href="mailto:hello@example.com?subject=Website%20demo%20request">
-              hello@example.com
+            <a class="contact-mail" href="mailto:mwittenbeck04@gmail.com?subject=Website%20demo%20request">
+              mwittenbeck04@gmail.com
             </a>
           </div>
 
-          <form class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain">
+          <form class="contact-form" id="contact-form">
             <div class="form-row">
               <label for="name">Name</label>
               <input id="name" name="name" type="text" autocomplete="name" required />
@@ -359,15 +384,15 @@
           <span class="brand-mark">MW</span>
           <span>Maks Wittenbeck</span>
         </a>
-        <p>Creative demo websites for small businesses that want to look sharper online.</p>
+        <p>Websites for local businesses, shown working before anything is agreed.</p>
       </div>
       <div class="footer-links">
         <a href="#work">Work</a>
         <a href="#services">Services</a>
         <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
+        <a href="mailto:mwittenbeck04@gmail.com">Email</a>
       </div>
-      <p class="copyright">&copy; <span id="year"></span> Maks Wittenbeck. Demo portfolio.</p>
+      <p class="copyright">&copy; <span id="year"></span> Maks Wittenbeck</p>
     </footer>
 
     <script src="script.js"></script>

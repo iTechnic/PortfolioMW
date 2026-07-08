@@ -8,4 +8,6 @@
   <rect x="76" y="292" width="292" height="15" rx="8" fill="#ffffff" opacity=".25"/>
   <rect x="76" y="322" width="220" height="14" rx="7" fill="#ffffff" opacity=".14"/>
   <path d="M144 256l148-104 148 104M184 228v52h216v-52" fill="none" stroke="#8fd1a1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M478 96l7 17 17 7-17 7-7 17-7-17-17-7 17-7Z" fill="#83d3cf" opacity=".85"/>
+  <path d="M528 148l5 12 12 5-12 5-5 12-5-12-12-5 12-5Z" fill="#83d3cf" opacity=".55"/>
 </svg>
