@@ -24,8 +24,8 @@
       content="See a live demo of your website before you commit to anything. Five live projects to browse right now."
     />
     <meta name="theme-color" content="#060606" />
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -49,7 +49,7 @@
 
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Maks Wittenbeck home">
+        <a class="brand" href="/" aria-label="Maks Wittenbeck home">
           <span class="brand-mark">MW</span>
           <span>Maks Wittenbeck</span>
         </a>
@@ -61,11 +61,11 @@
         </button>
 
         <div class="nav-links" id="nav-links">
-          <a href="#work">Work</a>
-          <a href="#services">Services</a>
-          <a href="#process">Process</a>
-          <a href="#faq">FAQ</a>
-          <a class="nav-cta" href="#contact">Start a demo</a>
+          <a href="/work/">Work</a>
+          <a href="/services/">Services</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+          <a class="nav-cta" href="/contact/">Start a demo</a>
         </div>
       </nav>
     </header>
@@ -81,8 +81,8 @@
             screen instead of a promise.
           </p>
           <div class="hero__actions">
-            <a class="button button--primary" href="#work">See the live sites</a>
-            <a class="button button--ghost" href="#contact">Start a demo</a>
+            <a class="button button--primary" href="/work/">See the live sites</a>
+            <a class="button button--ghost" href="/contact/">Start a demo</a>
           </div>
           <ul class="hero-meta" aria-label="Quick facts">
             <li>5 live sites to browse</li>
@@ -125,17 +125,17 @@
       <section class="section work-section" id="work">
         <div class="section-heading reveal">
           <span class="section-index">02</span>
-          <h2>Live work you can open right now</h2>
+          <h2>Featured work</h2>
           <p>
-            Every project below is deployed and working. Tap through and judge each one
-            the way a customer would: on your phone, in a hurry, looking for a reason to trust.
+            Real screenshots from real deployed sites. Open any of them and judge it the
+            way a customer would: on your phone, in a hurry, looking for a reason to trust.
           </p>
         </div>
 
         <div class="project-list">
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--pacepot" href="https://pacepot.com" target="_blank" rel="noopener" aria-label="Open PacePot, live site">
-              <img src="assets/work-pacepot.svg" alt="Stylised preview of the PacePot savings app interface" />
+            <a class="project-media" href="/work/pacepot/" aria-label="Read the PacePot case study">
+              <img src="/assets/shot-pacepot.jpg" alt="Screenshot of the PacePot homepage with the headline Save for anything, see exactly how" width="1280" height="800" />
             </a>
             <div class="project-copy">
               <p class="project-type">Product / web app</p>
@@ -144,28 +144,28 @@
               <div class="tag-row">
                 <span class="tag-live">Live at pacepot.com</span><span>App UI</span><span>Mobile First</span>
               </div>
-              <a class="project-link" href="https://pacepot.com" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
+              <a class="project-link" href="/work/pacepot/">Read the case study<span aria-hidden="true"> &rarr;</span></a>
             </div>
           </article>
 
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--plumbing" href="https://example-plumber-wheat.vercel.app" target="_blank" rel="noopener" aria-label="Open Dales Plumbing and Heating demo, live site">
-              <img src="assets/work-plumbing.svg" alt="Stylised preview of a plumbing and heating website layout" />
+            <a class="project-media" href="/work/dales-plumbing/" aria-label="Read the Dales Plumbing and Heating case study">
+              <img src="/assets/shot-plumbing.jpg" alt="Screenshot of the Dales Plumbing and Heating demo site with a 5.0 Google rating badge" width="1280" height="800" />
             </a>
             <div class="project-copy">
               <p class="project-type">Trade / plumbing and heating</p>
               <h3>Dales Plumbing &amp; Heating</h3>
-              <p>A service-led demo with a photo hero, clear services, trust stats, FAQ, and a sticky call bar for people browsing on their phone with a leak upstairs.</p>
+              <p>A service-led demo with a photo hero, trust stats, FAQ, and a sticky call bar for people browsing with a leak upstairs.</p>
               <div class="tag-row">
                 <span class="tag-live">Live demo</span><span>Services</span><span>Sticky Call Bar</span>
               </div>
-              <a class="project-link" href="https://example-plumber-wheat.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
+              <a class="project-link" href="/work/dales-plumbing/">Read the case study<span aria-hidden="true"> &rarr;</span></a>
             </div>
           </article>
 
           <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--barber" href="https://example-barber.vercel.app" target="_blank" rel="noopener" aria-label="Open Kings Cut Barbers demo, live site">
-              <img src="assets/work-barber.svg" alt="Stylised preview of a barber website with a price list and scissors motif" />
+            <a class="project-media" href="/work/kings-cut-barbers/" aria-label="Read the Kings Cut Barbers case study">
+              <img src="/assets/shot-barber.jpg" alt="Screenshot of the Kings Cut Barbers demo site with a dark editorial hero" width="1280" height="800" />
             </a>
             <div class="project-copy">
               <p class="project-type">Barber studio</p>
@@ -174,44 +174,14 @@
               <div class="tag-row">
                 <span class="tag-live">Live demo</span><span>Price List</span><span>WhatsApp Booking</span>
               </div>
-              <a class="project-link" href="https://example-barber.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
-            </div>
-          </article>
-
-          <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--cleaning" href="https://example-cleaner.vercel.app" target="_blank" rel="noopener" aria-label="Open Brightside Cleaning demo, live site">
-              <img src="assets/work-cleaning.svg" alt="Stylised preview of a home cleaning website layout with a house outline" />
-            </a>
-            <div class="project-copy">
-              <p class="project-type">Home cleaning</p>
-              <h3>Brightside Cleaning</h3>
-              <p>A calm, trust-first demo for a cleaning business: what gets cleaned, who turns up, what it costs to ask, and an enquiry flow with no friction.</p>
-              <div class="tag-row">
-                <span class="tag-live">Live demo</span><span>Trust</span><span>Enquiries</span>
-              </div>
-              <a class="project-link" href="https://example-cleaner.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
-            </div>
-          </article>
-
-          <article class="project-row reveal tilt-card">
-            <a class="project-media project-media--takeaway" href="https://example-takeaway.vercel.app" target="_blank" rel="noopener" aria-label="Open Santoro's Wood Fired Pizza demo, live site">
-              <img src="assets/work-takeaway.svg" alt="Stylised preview of a pizzeria website layout with a pizza slice motif" />
-            </a>
-            <div class="project-copy">
-              <p class="project-type">Takeaway / pizzeria</p>
-              <h3>Santoro's Wood Fired Pizza</h3>
-              <p>An appetite-first demo: dish photography up top, a structured menu with prices, and an order banner. The food sells, the site stays out of the way.</p>
-              <div class="tag-row">
-                <span class="tag-live">Live demo</span><span>Menu</span><span>Ordering</span>
-              </div>
-              <a class="project-link" href="https://example-takeaway.vercel.app" target="_blank" rel="noopener">Visit the live site<span aria-hidden="true"> &nearr;</span></a>
+              <a class="project-link" href="/work/kings-cut-barbers/">Read the case study<span aria-hidden="true"> &rarr;</span></a>
             </div>
           </article>
         </div>
 
         <div class="work-cta reveal">
-          <p>Your business could be the next site on this list.</p>
-          <a class="button button--primary" href="#contact">Get a demo of yours</a>
+          <p>Two more live projects are waiting on the work page.</p>
+          <a class="button button--primary" href="/work/">View all work</a>
         </div>
       </section>
 
@@ -247,6 +217,7 @@
             <p>Already have a site that underperforms? I build a sharper version alongside it so you can compare side by side.</p>
           </article>
         </div>
+        <a class="section-link reveal" href="/services/">More about services and pricing<span aria-hidden="true"> &rarr;</span></a>
       </section>
 
       <section class="section process-section" id="process">
@@ -289,112 +260,45 @@
             a phone. Before I ask anyone for money, I put a working site in front of them.
             That habit is the whole business: you judge finished work, not a pitch.
           </p>
-          <p>
-            Local businesses live off first impressions. My job is to make yours look like
-            the obvious choice: more taste, more clarity, and none of the usual template feeling.
-          </p>
-        </div>
-      </section>
-
-      <section class="section faq-section" id="faq">
-        <div class="section-heading reveal">
-          <span class="section-index">06</span>
-          <h2>Questions people usually ask first.</h2>
-        </div>
-
-        <div class="faq-list reveal">
-          <details>
-            <summary>Is this for real businesses or just demos?</summary>
-            <p>Both. The demo is the first version you react to. If it feels right, the same site gets refined and becomes your finished website.</p>
-          </details>
-          <details>
-            <summary>How fast can I see something?</summary>
-            <p>Days, not weeks. Once you describe the business, the first working demo usually lands in your inbox within a few days.</p>
-          </details>
-          <details>
-            <summary>What does it cost?</summary>
-            <p>You get a fixed quote before anything is agreed, and you see the working demo first. No hourly billing and no paying for something you have not seen.</p>
-          </details>
-          <details>
-            <summary>Can the style fit my business?</summary>
-            <p>Yes. Look at the live work above: the pizzeria, the barber, and the plumber share nothing but quality. The visual direction is built around your trade and your customers.</p>
-          </details>
-          <details>
-            <summary>Will it work on mobile?</summary>
-            <p>Every site here starts as a mobile design. Open any of the live projects on your phone and check.</p>
-          </details>
-          <details>
-            <summary>Do I need all the content ready?</summary>
-            <p>No. A short description of the business and the goal is enough to start. Photos, wording, and details get filled in as we refine.</p>
-          </details>
+          <a class="section-link" href="/about/">More about me and how I work<span aria-hidden="true"> &rarr;</span></a>
         </div>
       </section>
 
       <section class="section contact-section" id="contact">
-        <div class="contact-panel reveal">
+        <div class="contact-panel contact-panel--simple reveal">
           <div>
-            <span class="section-index">07</span>
+            <span class="section-index">06</span>
             <h2>Have a business in mind?</h2>
             <p>
               Send a few lines about the business and what the site should achieve.
               I reply within one working day, usually with questions and a plan for the first demo.
             </p>
-            <a class="contact-mail" href="mailto:mwittenbeck04@gmail.com?subject=Website%20demo%20request">
-              mwittenbeck04@gmail.com
-            </a>
+            <div class="hero__actions">
+              <a class="button button--primary" href="/contact/">Start a demo</a>
+              <a class="button button--ghost" href="mailto:mwittenbeck04@gmail.com?subject=Website%20demo%20request">Email me directly</a>
+            </div>
           </div>
-
-          <form class="contact-form" id="contact-form">
-            <div class="form-row">
-              <label for="name">Name</label>
-              <input id="name" name="name" type="text" autocomplete="name" required />
-            </div>
-            <div class="form-row">
-              <label for="business">Business name</label>
-              <input id="business" name="business" type="text" autocomplete="organization" />
-            </div>
-            <div class="form-row">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" autocomplete="email" required />
-            </div>
-            <div class="form-row">
-              <label for="website-type">Type of website needed</label>
-              <select id="website-type" name="website-type">
-                <option>Business website</option>
-                <option>Landing page</option>
-                <option>Booking/contact page</option>
-                <option>Website redesign</option>
-                <option>Demo website preview</option>
-              </select>
-            </div>
-            <div class="form-row form-row--full">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" placeholder="What does the business do?"></textarea>
-            </div>
-            <p class="form-note">Your enquiry opens as an email draft so you can review it before sending.</p>
-            <button class="button button--primary form-submit" type="submit">Submit enquiry</button>
-          </form>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div>
-        <a class="brand" href="#top">
+        <a class="brand" href="/">
           <span class="brand-mark">MW</span>
           <span>Maks Wittenbeck</span>
         </a>
         <p>Websites for local businesses, shown working before anything is agreed.</p>
       </div>
       <div class="footer-links">
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
-        <a href="#process">Process</a>
-        <a href="mailto:mwittenbeck04@gmail.com">Email</a>
+        <a href="/work/">Work</a>
+        <a href="/services/">Services</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
       </div>
       <p class="copyright">&copy; <span id="year"></span> Maks Wittenbeck</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>

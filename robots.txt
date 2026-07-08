@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-mw-h6pl.vercel.app/sitemap.xml
