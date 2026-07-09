@@ -1,3 +1,5 @@
+document.documentElement.classList.add("js");
+
 const body = document.body;
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
