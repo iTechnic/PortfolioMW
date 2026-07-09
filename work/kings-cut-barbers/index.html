@@ -4,126 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kings Cut Barbers Case Study | Maks Wittenbeck</title>
-    <meta name="description" content="A dark editorial demo website for a Headingley barbershop, designed to feel like the shop rather than a booking form." />
+    <meta name="description" content="The same designer, a completely different feel: bold and confident, with a proper price list and WhatsApp booking. Style follows the business, not a template." />
     <link rel="canonical" href="https://makswittenbeck.com/work/kings-cut-barbers/" />
     <meta property="og:title" content="Kings Cut Barbers Case Study | Maks Wittenbeck" />
-    <meta property="og:description" content="A dark editorial demo website for a Headingley barbershop, designed to feel like the shop rather than a booking form." />
-    <meta property="og:type" content="article" />
+    <meta property="og:description" content="The same designer, a completely different feel: bold and confident, with a proper price list and WhatsApp booking. Style follows the business, not a template." />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="https://makswittenbeck.com/work/kings-cut-barbers/" />
     <meta property="og:image" content="https://makswittenbeck.com/assets/shot-barber.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#060606" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="spotlight" aria-hidden="true"></div>
-
     <header class="site-header">
-      <nav class="nav-shell" aria-label="Primary navigation">
+      <div class="container nav">
         <a class="brand" href="/" aria-label="Maks Wittenbeck home">
+          <span class="brand-dot" aria-hidden="true"></span>
           <span>Maks Wittenbeck</span>
         </a>
-
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
-          <span class="menu-toggle__line"></span>
-          <span class="menu-toggle__line"></span>
-          <span class="sr-only">Toggle navigation</span>
-        </button>
-
-        <div class="nav-links" id="nav-links">
+        <nav class="nav-links" id="nav-links" aria-label="Primary">
           <a href="/work/" aria-current="page">Work</a>
           <a href="/services/">Services</a>
           <a href="/#process">Process</a>
           <a href="/contact/#faq">FAQ</a>
           <a href="/contact/">Contact</a>
-          <a class="nav-cta" href="/contact/">Start a demo</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn--primary btn--sm" href="/contact/">Start a demo</a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+          </button>
         </div>
-      </nav>
+      </div>
     </header>
-
     <main id="main">
-      <section class="section page-hero" style="--accent:#d8bd8d">
-        <a class="back-link" href="/work/"><span aria-hidden="true">&larr; </span>All work</a>
-        <span class="eyebrow">Barber studio</span>
-        <h1>Kings Cut Barbers</h1>
-        <p>A demo for a fictional Headingley barbershop. Barbers sell atmosphere as much as haircuts, so this one breaks from the standard local-business layout entirely: dark, editorial, and confident.</p>
-        <dl class="case-meta">
-          <div>
-            <dt>Status</dt>
-            <dd>Live demo</dd>
-          </div>
-          <div>
-            <dt>Role</dt>
-            <dd>Design and build</dd>
-          </div>
-          <div>
-            <dt>See it</dt>
-            <dd><a class="project-link" style="margin-top:0" href="https://example-barber.vercel.app" target="_blank" rel="noopener">Live demo site<span aria-hidden="true"> &nearr;</span></a></dd>
-          </div>
-        </dl>
+      <section class="section page-hero">
+        <div class="container">
+          <a class="back-link" href="/work/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> All work</a>
+          <span class="eyebrow">Barber studio</span>
+          <h1>Kings Cut Barbers</h1>
+          <p class="lede">A demo for a fictional Headingley barbershop. Barbers sell atmosphere as much as haircuts, so this one breaks from the standard local-business layout entirely: bold, editorial, and confident.</p>
+          <dl class="case-meta">
+            <div><dt>Status</dt><dd>Live demo</dd></div>
+            <div><dt>Role</dt><dd>Design and build</dd></div>
+            <div><dt>See it</dt><dd><a class="arrow-link" href="https://example-barber.vercel.app" target="_blank" rel="noopener">Live demo site <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></dd></div>
+          </dl>
+        </div>
       </section>
-
-      <section class="section" style="padding-top:0" aria-label="Project screenshot">
-        <a class="case-shot" href="https://example-barber.vercel.app" target="_blank" rel="noopener" aria-label="Open the live site for Kings Cut Barbers">
-          <img src="/assets/shot-barber.jpg" alt="Screenshot of the Kings Cut Barbers demo site with a dark editorial hero" width="1280" height="800" />
-        </a>
+      <section style="padding-bottom:clamp(2rem,4vw,3rem)">
+        <div class="container">
+          <a class="case-shot" href="https://example-barber.vercel.app" target="_blank" rel="noopener" aria-label="Open the live site for Kings Cut Barbers">
+            <img src="/assets/shot-barber.jpg" alt="Screenshot of the Kings Cut Barbers site" width="1280" height="800" />
+          </a>
+        </div>
       </section>
-
-      <section class="section" style="padding-top:clamp(2.5rem,5vw,4rem)" aria-label="Case study details">
-        <div class="case-body reveal">
-          <h2>The brief</h2>
-          <div>
-            <p>A barbershop site has a short checklist: prices, photos, opening hours, and a way to book. The failure mode is making that checklist feel like admin.</p>
-            <p>The goal was a page that feels like walking past the shop window: you see the standard of work and the character of the place before you see a single button.</p>
-          </div>
-        </div>
-        <div class="case-body reveal">
-          <h2>What I built</h2>
-          <div>
-            <ul>
-              <li>Dark editorial layout with serif display type</li>
-              <li>A proper price list with dot leaders, like a menu, not a table</li>
-              <li>Asymmetric work grid showing cuts instead of stock imagery</li>
-              <li>WhatsApp booking, because that is how barbers actually take bookings</li>
-              <li>Opening hours and location built for a quick glance on mobile</li>
-            </ul>
-          </div>
-        </div>
-        <div class="case-body reveal">
-          <h2>Design decisions</h2>
-          <div>
-            <p>No contact form anywhere. Forms suit offices; barbers live on WhatsApp and walk-ins, so the site leans into the channel customers already use.</p>
-            <p>The typography does the branding. A shop this size has no logo budget, but a strong serif headline and a disciplined price list read as identity anyway.</p>
-          </div>
-        </div>
-
-        <div class="case-cta reveal">
-          <p>Want a site that works this hard for your business?</p>
-          <div class="hero__actions" style="margin-top:0">
-            <a class="button button--primary" href="/contact/">Start a demo</a>
-            <a class="button button--ghost" href="/work/brightside-cleaning/">Next: Brightside Cleaning</a>
+      <section class="section" style="padding-top:0">
+        <div class="container">
+          <div class="case-body reveal"><h2>The brief</h2><div><p>A barbershop site has a short checklist: prices, photos, opening hours, and a way to book. The failure mode is making that checklist feel like admin.</p><p>The goal was a page that feels like walking past the shop window: you see the standard of work and the character of the place before a single button.</p></div></div>
+          <div class="case-body reveal"><h2>What I built</h2><div><ul><li>A bold editorial layout with strong display type</li><li>A proper price list with dot leaders, like a menu, not a table</li><li>An asymmetric work grid showing cuts instead of stock imagery</li><li>WhatsApp booking, because that is how barbers actually take bookings</li><li>Opening hours and location built for a quick glance on mobile</li></ul></div></div>
+          <div class="case-body reveal"><h2>Design decisions</h2><div><p>No contact form anywhere. Forms suit offices; barbers live on WhatsApp and walk-ins, so the site leans into the channel customers already use.</p><p>The typography does the branding. A shop this size has no logo budget, but a strong display headline and a disciplined price list read as identity anyway.</p></div></div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:2rem">
+            <a class="btn btn--primary" href="/contact/">Start a demo of your own</a>
+            <a class="btn btn--ghost" href="/work/brightside-cleaning/">Next: Brightside Cleaning</a>
           </div>
         </div>
       </section>
     </main>
-
-    <footer class="site-footer site-footer--slim">
-      <nav class="footer-links" aria-label="Footer">
-        <a href="/work/">Work</a>
-        <a href="/services/">Services</a>
-        <a href="/about/">About</a>
-        <a href="/contact/">Contact</a>
-        <a href="mailto:makswittenbecksites@gmail.com">Email</a>
-        <a href="https://wa.me/447923164313" target="_blank" rel="noopener">WhatsApp</a>
-      </nav>
-      <nav class="footer-legal" aria-label="Legal">
-        <a href="/privacy/">Privacy</a>
-        <a href="/terms/">Terms</a>
-        <a href="mailto:makswittenbecksites@gmail.com?subject=Support">Support</a>
-      </nav>
-      <p class="copyright">&copy; <span id="year"></span> Maks Wittenbeck</p>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a class="brand" href="/"><span class="brand-dot" aria-hidden="true"></span><span>Maks Wittenbeck</span></a>
+            <p>Demo-first websites for small businesses. See a working version before you commit to anything.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <nav aria-label="Footer explore">
+              <a href="/work/">Work</a>
+              <a href="/services/">Services</a>
+              <a href="/#process">Process</a>
+              <a href="/about/">About</a>
+            </nav>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <nav aria-label="Footer contact">
+              <a href="/contact/">Start a demo</a>
+              <a href="mailto:makswittenbecksites@gmail.com">Email</a>
+              <a href="https://wa.me/447923164313" target="_blank" rel="noopener">WhatsApp</a>
+              <a href="/contact/#faq">FAQ</a>
+            </nav>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <nav aria-label="Footer legal">
+              <a href="/privacy/">Privacy</a>
+              <a href="/terms/">Terms</a>
+              <a href="mailto:makswittenbecksites@gmail.com?subject=Support">Support</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; <span id="year"></span> Maks Wittenbeck</p>
+          <p>makswittenbeck.com</p>
+        </div>
+      </div>
     </footer>
 
     <script src="/script.js"></script>
