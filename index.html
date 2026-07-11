@@ -65,10 +65,11 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <h1>Websites you can see before you commit.</h1>
+            <h1>Websites you can see <span class="mark">before you commit.</span></h1>
             <p class="lede">
-              Send me your idea and I will build a working demo of your website first.
-              Review it, ask for changes, and only pay once you are happy with the direction.
+              Every other web designer asks you to pay first and hope. I do it the other
+              way round: I build a real, working demo of your site first, and you only
+              pay once you love where it is going.
             </p>
             <div class="hero-actions">
               <a class="btn btn--primary" href="/contact/">Start a free demo</a>
@@ -81,15 +82,62 @@
             </ul>
           </div>
           <div class="hero-media">
-            <div class="mock-stack">
-              <div class="mock">
-                <div class="mock__bar"><span></span><span></span><span></span><span class="url">example-plumber.vercel.app</span></div>
-                <img src="/assets/shot-plumbing.jpg" alt="A demo website for a plumbing and heating business" width="1280" height="800" />
+            <div class="showcase" data-showcase>
+              <div class="showcase__frame">
+                <div class="showcase__bar" aria-hidden="true">
+                  <i></i><i></i><i></i>
+                  <span class="showcase__url" data-showcase-url>pacepot.com</span>
+                </div>
+                <div class="showcase__viewport">
+                  <div class="showcase__track" data-showcase-track>
+                    <div class="showcase__slide" data-name="PacePot" data-type="savings web app" data-url="pacepot.com"><img src="/assets/shot-pacepot.jpg" alt="The PacePot savings web app" width="1280" height="800" /></div>
+                    <div class="showcase__slide" data-name="Dales Plumbing &amp; Heating" data-type="plumber" data-url="dalesplumbing.co.uk"><img src="/assets/shot-plumbing.jpg" alt="A demo website for a plumbing and heating business" width="1280" height="800" loading="lazy" /></div>
+                    <div class="showcase__slide" data-name="Kings Cut Barbers" data-type="barber studio" data-url="kingscutbarbers.co.uk"><img src="/assets/shot-barber.jpg" alt="A demo website for a barbershop" width="1280" height="800" loading="lazy" /></div>
+                    <div class="showcase__slide" data-name="Brightside Cleaning" data-type="cleaner" data-url="brightsidecleaning.co.uk"><img src="/assets/shot-cleaning.jpg" alt="A demo website for a home cleaning business" width="1280" height="800" loading="lazy" /></div>
+                    <div class="showcase__slide" data-name="Santoro's Wood Fired Pizza" data-type="pizzeria" data-url="santoros.co.uk"><img src="/assets/shot-takeaway.jpg" alt="A demo website for a wood fired pizzeria" width="1280" height="800" loading="lazy" /></div>
+                  </div>
+                </div>
               </div>
-              <div class="mock mock--back">
-                <div class="mock__bar"><span></span><span></span><span></span></div>
-                <img src="/assets/shot-barber.jpg" alt="A demo website for a barbershop" width="1280" height="800" />
+              <div class="showcase__controls">
+                <div class="showcase__arrows">
+                  <button class="showcase__arrow" type="button" data-showcase-prev aria-label="Previous project"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+                  <button class="showcase__arrow" type="button" data-showcase-next aria-label="Next project"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+                </div>
+                <p class="showcase__caption" data-showcase-caption aria-live="polite">PacePot <span>&middot; savings web app</span></p>
+                <div class="showcase__dots" role="tablist" aria-label="Choose a project" data-showcase-dots></div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Difference -->
+      <section class="section" id="difference">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Most web design works backwards.</h2>
+            <p>You pay up front and hope it turns out. I put the risk on me instead, so you decide with the real thing in front of you.</p>
+          </div>
+          <div class="contrast">
+            <div class="contrast__col contrast__col--them reveal reveal--left">
+              <span class="contrast__tag">The usual way</span>
+              <h3>Pay first, hope later.</h3>
+              <ul class="contrast__list">
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>A deposit before you have seen a single thing.</li>
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>Weeks of waiting on mockups and email chains.</li>
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>A stock template with your logo dropped on top.</li>
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>If it misses, your money is already gone.</li>
+              </ul>
+            </div>
+            <div class="contrast__col contrast__col--me reveal reveal--right">
+              <span class="contrast__tag">With me</span>
+              <h3>See it first, pay when you are sure.</h3>
+              <ul class="contrast__list">
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>A real, working demo of your site within days.</li>
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Change anything: layout, words, colours, photos.</li>
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Designed around your trade, never a stock template.</li>
+                <li><svg class="contrast__ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>You only pay once you love the direction.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -99,9 +147,9 @@
       <section class="section--tight">
         <div class="container">
           <div class="stat-strip reveal">
-            <div class="stat"><b>5</b><span>live projects</span></div>
+            <div class="stat"><b>5</b><span>live projects to browse</span></div>
             <div class="stat"><b>90+</b><span>Google speed score</span></div>
-            <div class="stat"><b>Days</b><span>to your first demo</span></div>
+            <div class="stat"><b>1</b><span>designer, start to finish</span></div>
             <div class="stat"><b>&pound;0</b><span>until you approve</span></div>
           </div>
         </div>
@@ -114,7 +162,7 @@
             <h2>See it before you spend anything.</h2>
             <p>You do not need a brief or a finished plan. The first thing you judge is a real website, built around your business.</p>
           </div>
-          <div class="steps">
+          <div class="steps" data-stagger>
             <article class="step reveal"><span class="step__num">1</span><div><h3>Send me your idea</h3><p>Tell me what your business does and what the site should achieve. A few sentences is plenty to start.</p></div></article>
             <article class="step reveal"><span class="step__num">2</span><div><h3>I build a demo concept</h3><p>Within days you get a link to a short working version of your site, designed around your business. No cost, no obligation.</p></div></article>
             <article class="step reveal"><span class="step__num">3</span><div><h3>We refine it together</h3><p>You tell me what feels right and what does not. Design, words, photos, and structure get adjusted until it feels like yours.</p></div></article>
@@ -131,7 +179,7 @@
             <h2>Proof, not promises.</h2>
             <p>Every project below is deployed and working right now. Real screenshots, real links, a different design language for each business.</p>
           </div>
-          <div class="work-grid">
+          <div class="work-grid" data-stagger>
             <article class="project reveal">
               <div class="project__media">
                 <span class="project__badge"><span class="dot"></span>Live product</span>
@@ -201,7 +249,7 @@
             <h2>What I can build for you.</h2>
             <p>Four ways in, depending on where your business is starting from.</p>
           </div>
-          <div class="grid grid--2">
+          <div class="grid grid--2" data-stagger>
             <article class="card card--hover reveal">
               <span class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></span>
               <h3>Business websites</h3>
@@ -227,34 +275,40 @@
         </div>
       </section>
 
-      <!-- Why -->
-      <section class="section" id="why">
-        <div class="container">
-          <div class="section-head reveal">
-            <h2>It works in your favour.</h2>
+      <!-- Capabilities -->
+      <section class="section" id="capabilities">
+        <div class="container caps">
+          <div class="caps__intro reveal reveal--left">
+            <h2>More than a brochure, when you need it.</h2>
+            <p>Plenty of businesses just need clear pages and an easy way to get in touch. But when you are ready for more, your site can do more. This is the kind of thing I build in.</p>
+            <a class="btn btn--primary" href="/contact/" style="margin-top:1.6rem">Talk through your idea</a>
           </div>
-          <div class="grid grid--4">
-            <article class="card reveal">
-              <span class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-              <h3>Zero risk to look</h3>
-              <p>The demo comes before any payment. If it is not right, you walk away and it cost you one email.</p>
-            </article>
-            <article class="card reveal">
-              <span class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-              <h3>Built around your trade</h3>
-              <p>A plumber, a barber, and a pizzeria each get their own look. Yours gets the same treatment.</p>
-            </article>
-            <article class="card reveal">
-              <span class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
-              <h3>Fast, and provably so</h3>
-              <p>Every site here scores 90+ on Google's mobile speed test. You can run the test yourself.</p>
-            </article>
-            <article class="card reveal">
-              <span class="card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a7 7 0 0 1 14 0v1"/></svg></span>
-              <h3>One person, start to finish</h3>
-              <p>The person you email is the one who designs, builds, and launches your site. Nothing gets lost in handovers.</p>
-            </article>
-          </div>
+          <ul class="caps__list reveal reveal--right">
+            <li>
+              <span class="caps__ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></span>
+              <div><b>Online payments</b><span>Take bookings, deposits, or sell directly with secure Stripe checkout.</span></div>
+            </li>
+            <li>
+              <span class="caps__ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+              <div><b>Customer logins and accounts</b><span>Member areas, client portals, and admin logins to manage it all.</span></div>
+            </li>
+            <li>
+              <span class="caps__ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span>
+              <div><b>Sign-ups and bookings</b><span>Appointment, enquiry, and registration forms that capture the right details.</span></div>
+            </li>
+            <li>
+              <span class="caps__ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg></span>
+              <div><b>Newsletters and email capture</b><span>Grow a mailing list and stay in front of past customers.</span></div>
+            </li>
+            <li>
+              <span class="caps__ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="9" cy="18" r="2"/></svg></span>
+              <div><b>Manage it yourself</b><span>Update content, prices, and bookings from a simple dashboard, no code needed.</span></div>
+            </li>
+            <li>
+              <span class="caps__ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg></span>
+              <div><b>Connect your tools</b><span>Link up the booking, payment, and marketing tools you already use.</span></div>
+            </li>
+          </ul>
         </div>
       </section>
 
